@@ -11,13 +11,12 @@ hr {
 #board {
     height: 450px;
     width: 450px;
-    background-color: aqua;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.board-tiles {
+.board-tile {
     width: 48px;
     height: 48px;
     border: 1px solid lightgray;
@@ -31,17 +30,19 @@ hr {
     height: 50px;
     width: 450px;
     margin: 0 auto;
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
 }
 
-.number-selection-tiles {
-    width: 48px;
-    height: 48px;
+.number-selection-tile {
+    width: 44px;
+    height: 44px;
     border: 1px solid black;
-    align-items: center;
+    margin: 2px;
+    border-radius: 20%;
     justify-content: center;
+    align-items: center;
     font-style: bold;
     font-size: 20px;
+    display: flex;
 }
