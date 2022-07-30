@@ -81,6 +81,17 @@ function tileChoice() {
         if (this.innerText != "") {
             return // prevents overwriting of a previous selection
         }
-        this.innerText = selectedNumber.id;
+
+        // finding the coordinates of the selected number on the board
+        let numberCoordinates = this.id.split("-");
+        let row = parseInt(numberCoordinates[0]);
+        let column = parseInt(numberCoordinates[1]);
+
+        if (puzzleSolution[row][column] === selectedNumber.id) {
+            this.innerText = selectedNumber.id;
+        } else {
+            wrongGuesses += 1;
+            document.getElementById("incorrect-guesses").innerText = wrongGuesses;
+        }
     }
 }

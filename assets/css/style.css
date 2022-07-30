@@ -6,6 +6,9 @@ hr {
     width: 450px;
 }
 
+#incorrect-guesses {
+    color: red;
+}
 
 #board {
     height: 450px;
