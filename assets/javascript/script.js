@@ -1,5 +1,5 @@
-let numberSelected = null;
-let tileSelected = null;
+let selectedNumber = null;
+let selectedTile = null;
 
 let wrongGuesses = 0;
 
@@ -48,8 +48,18 @@ function createGame() {
         let number = document.createElement("div");
         number.id = i;
         number.innerText = i;
+        number.addEventListener("click", selectNumberStyle); 
         number.classList.add("number-selection-tile");
         document.getElementById("number-selection").appendChild(number);
     }
 
+}
+
+
+function selectNumberStyle() {
+    if (selectedNumber != null) {
+        selectedNumber.classList.remove("user-selected-number");
+    }
+    selectedNumber = this;
+    selectedNumber.classList.add("user-selected-number");
 }
