@@ -3,6 +3,7 @@ let selectedTile = null;
 
 let wrongGuesses = 0;
 
+
 let puzzle = [
     "43526978-",
     "68257149-",
@@ -66,6 +67,32 @@ function createGame() {
 
 }
 
+// The user selects the difficulty
+let easy = document.getElementById("easy");
+let medium = document.getElementById("medium");
+let hard = document.getElementById("hard");
+
+
+function difficultyEasy() {
+    let wrongGuesses = 12;
+    document.getElementById("incorrect-guesses").innerText = wrongGuesses;
+}
+
+function difficultyMedium() {
+    let wrongGuesses = 7;
+    document.getElementById("incorrect-guesses").innerText = wrongGuesses;
+}
+
+function difficultyHard() {
+    let wrongGuesses = 3;
+    document.getElementById("incorrect-guesses").innerText = wrongGuesses;
+} 
+
+easy.onclick = difficultyEasy();
+medium.onclick = difficultyMedium();
+hard.onclick = difficultyHard();
+
+
 // The user selects the number
 function numberChoice() {
     if (selectedNumber != null) {
@@ -90,8 +117,13 @@ function tileChoice() {
         if (puzzleSolution[row][column] === selectedNumber.id) {
             this.innerText = selectedNumber.id;
         } else {
-            wrongGuesses += 1;
+            wrongGuesses -= 1;
             document.getElementById("incorrect-guesses").innerText = wrongGuesses;
         }
     }
 }
+
+
+
+
+
