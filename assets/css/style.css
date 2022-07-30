@@ -19,10 +19,11 @@ hr {
     width: 48px;
     height: 48px;
     border: 1px solid lightgray;
-    align-items: center;
     justify-content: center;
-    font-style: bold;
+    align-items: center;
+    font-weight: bold;
     font-size: 20px;
+    display: flex;
 }
 
 #number-selection {
@@ -41,7 +42,7 @@ hr {
     border-radius: 20%;
     justify-content: center;
     align-items: center;
-    font-style: bold;
+    font-weight: bold;
     font-size: 20px;
     display: flex;
 }

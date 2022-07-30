@@ -38,6 +38,8 @@ function createGame() {
         for (let column = 0; column < 9; column++) {
             let boardTile = document.createElement("div");
             boardTile.id = row.toString() + "-" + column.toString();
+            boardTile.innerText = puzzle[row][column];
+            boardTile.addEventListener("click", tileChoice);
             boardTile.classList.add("board-tile");
             document.getElementById("board").appendChild(boardTile);
         }
@@ -48,18 +50,28 @@ function createGame() {
         let number = document.createElement("div");
         number.id = i;
         number.innerText = i;
-        number.addEventListener("click", selectNumberStyle); 
+        number.addEventListener("click", numberChoice); 
         number.classList.add("number-selection-tile");
         document.getElementById("number-selection").appendChild(number);
     }
 
 }
 
-
-function selectNumberStyle() {
+// The user selects the number
+function numberChoice() {
     if (selectedNumber != null) {
         selectedNumber.classList.remove("user-selected-number");
     }
     selectedNumber = this;
     selectedNumber.classList.add("user-selected-number");
+}
+
+// The user then places the selected number on the board
+function tileChoice() {
+    if (selectedNumber) {
+        if (this.innerText != "") {
+            return // prevents overwriting of a previous selection
+        }
+        this.innerText = selectedNumber.id;
+    }
 }
