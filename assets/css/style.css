@@ -1,4 +1,4 @@
-h1 {
+body {
     text-align: center;
 }
 
@@ -13,4 +13,35 @@ hr {
     width: 450px;
     background-color: aqua;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board-tiles {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+    font-size: 20px;
+}
+
+#number-selection {
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number-selection-tiles {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+    font-size: 20px;
 }
