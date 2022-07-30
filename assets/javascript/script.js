@@ -38,7 +38,16 @@ function createGame() {
         for (let column = 0; column < 9; column++) {
             let boardTile = document.createElement("div");
             boardTile.id = row.toString() + "-" + column.toString();
-            boardTile.innerText = puzzle[row][column];
+            if (puzzle[row][column] != "-") {
+                boardTile.innerText = puzzle[row][column];
+                boardTile.classList.add("populated-tiles");
+            } // populates the board from the puzzle array skipping dashes
+            if (row === 2 || row === 5) {
+                boardTile.classList.add("row-line");
+            }
+            if (column === 2 || column === 5) {
+                boardTile.classList.add("column-line");
+            }
             boardTile.addEventListener("click", tileChoice);
             boardTile.classList.add("board-tile");
             document.getElementById("board").appendChild(boardTile);

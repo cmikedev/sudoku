@@ -26,6 +26,18 @@ hr {
     display: flex;
 }
 
+.populated-tiles {
+    background-color: lightcyan;
+}
+
+.row-line {
+    border-bottom: 1px solid black;
+}
+
+.column-line {
+    border-right: 1px solid black;
+}
+
 #number-selection {
     height: 50px;
     width: 450px;
