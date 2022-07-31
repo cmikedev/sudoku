@@ -1,7 +1,11 @@
 let selectedNumber = null;
 let selectedTile = null;
 
-let wrongGuesses = 0;
+let easyLives = 12;
+let mediumLives = 7;
+let hardLives = 3;
+
+let numberOfLives;
 
 
 let puzzle = [
@@ -37,7 +41,19 @@ function id(id) {
     return document.getElementById(id);
 }
 
+// resetting the game
+id("start-button").addEventListener("click", function() {
+    
+});
+
 function createGame() {
+
+    // populating the number of lives based on difficulty selected
+    if (id("diff-easy").checked) numberOfLives = easyLives;
+    if (id("diff-medium").checked) numberOfLives = mediumLives;
+    if (id("diff-hard").checked) numberOfLives = hardLives;
+    document.getElementById("lives").innerText = numberOfLives;
+
     // populating the board by creating 81 divs
     for (let row = 0; row < 9; row++) {
         for (let column = 0; column < 9; column++) {
@@ -72,6 +88,7 @@ function createGame() {
 }
 
 // The user selects the difficulty
+/**
 let easy = document.getElementById("easy");
 let medium = document.getElementById("medium");
 let hard = document.getElementById("hard");
@@ -95,7 +112,7 @@ function difficultyHard() {
 easy.onclick = difficultyEasy();
 medium.onclick = difficultyMedium();
 hard.onclick = difficultyHard();
-
+*/
 
 // The user selects the number
 function numberChoice() {
@@ -121,8 +138,13 @@ function tileChoice() {
         if (puzzleSolution[row][column] === selectedNumber.id) {
             this.innerText = selectedNumber.id;
         } else {
-            wrongGuesses -= 1;
-            document.getElementById("incorrect-guesses").innerText = wrongGuesses;
+            numberOfLives -= 1;
+            document.getElementById("lives").innerText = numberOfLives;
+        }
+
+        // losing the game
+        if (numberOfLives === 0) {
+            alert("You lose :(")
         }
     }
 }
