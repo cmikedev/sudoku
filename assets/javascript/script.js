@@ -30,7 +30,11 @@ let puzzleSolution = [
 
 
 window.onload = function() {
-    createGame();
+    id("start-button").addEventListener("click", createGame);
+}
+
+function id(id) {
+    return document.getElementById(id);
 }
 
 function createGame() {

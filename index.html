@@ -9,16 +9,51 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sudoku</title>
 </head>
+<header>
+    
+</header>
 <body>
     <h1>Sudoku</h1>
     <hr>
-    <div id="difficulty">
-        <button id="easy" type="submit">Easy</button>
+    <div>
+        <div class="difficulty">
+            <p>Select difficulty:</p>
+        </div>
+        <div class="difficulty">
+            <label>
+                <input id="diff-easy" type="radio" name="difficulty" value="easy" checked>Easy</label>
+            </label>
+        </div>
+        <div class="difficulty">
+            <label>
+                <input id="diff-medium" type="radio" name="difficulty" value="medium">Medium</label>
+            </label>
+        </div>
+        <div class="difficulty">
+            <label>
+                <input id="diff-hard" type="radio" name="difficulty" value="hard">Hard</label>
+            </label>
+        </div>
+        
+
+
+        <!--<button id="easy" type="submit">Easy</button>
         <button id="medium" type="submit">Medium</button>
-        <button id="hard" type="submit">Hard</button>
+        <button id="hard" type="submit">Hard</button>-->
+    </div>
+    <hr>
+    <div>
+        <button id="start-button">Start Game!</button>
     </div>
     <br>
-    <h2 id="incorrect-guesses">0</h2>
+    <div>
+        <div>
+            <p class="lives">Lives remaining:</p>
+        </div>
+        <div>
+            <p class="lives" id="incorrect-guesses">0</p>
+        </div>
+    </div>
     <div id="board"></div>
     <br>
     <div id="number-selection"></div>

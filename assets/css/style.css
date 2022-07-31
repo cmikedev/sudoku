@@ -6,6 +6,14 @@ hr {
     width: 450px;
 }
 
+.difficulty {
+    display: inline-block;
+}
+
+.lives {
+    display: inline-block;
+}
+
 #incorrect-guesses {
     color: red;
 }
