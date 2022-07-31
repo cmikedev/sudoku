@@ -5,7 +5,12 @@ let easyLives = 12;
 let mediumLives = 7;
 let hardLives = 3;
 
+// used to calculate the lose game
 let numberOfLives;
+
+// these will be used for the game win
+let numberBlank = 2;
+let numberSelectionCount = 0;
 
 
 let puzzle = [
@@ -126,6 +131,7 @@ function tileChoice() {
 
         if (puzzleSolution[row][column] === selectedNumber.id) {
             this.innerText = selectedNumber.id;
+            numberSelectionCount ++;
         } else {
             if (numberOfLives === 0) {
                 numberOfLives += 0; // this stops the lives being deducted after a game has ended
@@ -136,9 +142,9 @@ function tileChoice() {
         }
 
         // winning the game
-        for (let i = 0; i < this.length; i++) {
-            if (i === "") return false;
-        } return id("lives").innerText = "Congrats! You won :)";
+        if (numberSelectionCount === numberBlank) {
+            id("lives").innerText = "Congrats! You won :)";
+        }
 
         // losing the game
         if (numberOfLives === 0) {
