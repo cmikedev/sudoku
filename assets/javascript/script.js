@@ -42,8 +42,13 @@ function id(id) {
 }
 
 // resetting the game
-id("start-button").addEventListener("click", function() {
-    
+id("reset").addEventListener("click", function() {
+    // clearing the tiles
+    let tiles = document.querySelectorAll(".board-tile");
+    for (let i = 0; i < tiles.length; i++) {
+        tiles[i].remove();
+    }
+
 });
 
 function createGame() {
