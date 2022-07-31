@@ -37,6 +37,7 @@ window.onload = function() {
     id("start-button").addEventListener("click", createGame);
 }
 
+// function to abbreviate document.getElementById()
 function id(id) {
     return document.getElementById(id);
 }
@@ -55,7 +56,7 @@ id("reset").addEventListener("click", function() {
         numberTiles[i].remove();
     }
     // clearing the lives
-    document.getElementById("lives").innerText = "";
+    id("lives").innerText = "";
 
 });
 
@@ -65,17 +66,19 @@ function createGame() {
     if (id("diff-easy").checked) numberOfLives = easyLives;
     if (id("diff-medium").checked) numberOfLives = mediumLives;
     if (id("diff-hard").checked) numberOfLives = hardLives;
-    document.getElementById("lives").innerText = numberOfLives;
+    document.getElementById("lives").innerText = "Lives Remaining: " + numberOfLives;
 
     // populating the board by creating 81 divs
     for (let row = 0; row < 9; row++) {
         for (let column = 0; column < 9; column++) {
             let boardTile = document.createElement("div");
             boardTile.id = row.toString() + "-" + column.toString();
+            // populates the board from the puzzle array skipping dashes
             if (puzzle[row][column] != "-") {
                 boardTile.innerText = puzzle[row][column];
                 boardTile.classList.add("populated-tiles");
-            } // populates the board from the puzzle array skipping dashes
+            } 
+            // adds darker lines to make rows 2, 5 and columns 2, 5 stand out
             if (row === 2 || row === 5) {
                 boardTile.classList.add("row-line");
             }
@@ -84,7 +87,7 @@ function createGame() {
             }
             boardTile.addEventListener("click", tileChoice);
             boardTile.classList.add("board-tile");
-            document.getElementById("board").appendChild(boardTile);
+            id("board").appendChild(boardTile);
         }
     }
 
@@ -95,37 +98,10 @@ function createGame() {
         number.innerText = i;
         number.addEventListener("click", numberChoice); 
         number.classList.add("number-selection-tile");
-        document.getElementById("number-selection").appendChild(number);
+        id("number-selection").appendChild(number);
     }
 
 }
-
-// The user selects the difficulty
-/**
-let easy = document.getElementById("easy");
-let medium = document.getElementById("medium");
-let hard = document.getElementById("hard");
-
-
-function difficultyEasy() {
-    let wrongGuesses = 12;
-    document.getElementById("incorrect-guesses").innerText = wrongGuesses;
-}
-
-function difficultyMedium() {
-    let wrongGuesses = 7;
-    document.getElementById("incorrect-guesses").innerText = wrongGuesses;
-}
-
-function difficultyHard() {
-    let wrongGuesses = 3;
-    document.getElementById("incorrect-guesses").innerText = wrongGuesses;
-} 
-
-easy.onclick = difficultyEasy();
-medium.onclick = difficultyMedium();
-hard.onclick = difficultyHard();
-*/
 
 // The user selects the number
 function numberChoice() {
@@ -151,29 +127,24 @@ function tileChoice() {
         if (puzzleSolution[row][column] === selectedNumber.id) {
             this.innerText = selectedNumber.id;
         } else {
-            numberOfLives -= 1;
-            document.getElementById("lives").innerText = numberOfLives;
-        }
-
-        // losing the game
-        if (numberOfLives === 0) {
-            alert("You lose :(")
-            //document.getElementById("lives").innerText = "You lose :(";
+            if (numberOfLives === 0) {
+                numberOfLives += 0; // this stops the lives being deducted after a game has ended
+            } else {
+                numberOfLives -=1;
+                id("lives").innerText = "Lives Remaining: " + numberOfLives;
+            }
         }
 
         // winning the game
-        let tileContents = document.querySelectorAll(".board-tile");
-        let answers = [];
-        for (let i = 0; i < tileContents.length; i++) {
-            answers.push([i]);
+        for (let i = 0; i < this.length; i++) {
+            if (i === "") return false;
+        } return id("lives").innerText = "Congrats! You won :)";
+
+        // losing the game
+        if (numberOfLives === 0) {
+            id("lives").innerText = "You lost :(";
         }
-        if (answers.length === 82) {
-            alert("You Win! :)");
-        }
-    }
+     }
 }
-
-
-
 
 
