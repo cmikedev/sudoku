@@ -43,7 +43,7 @@ function id(id) {
 
 // resetting the game
 id("reset").addEventListener("click", function() {
-    
+
     // clearing the tiles on the board
     let boardTiles = document.querySelectorAll(".board-tile");
     for (let i = 0; i < boardTiles.length; i++) {
@@ -54,6 +54,8 @@ id("reset").addEventListener("click", function() {
     for (let i = 0; i < numberTiles.length; i++) {
         numberTiles[i].remove();
     }
+    // clearing the lives
+    document.getElementById("lives").innerText = "";
 
 });
 
@@ -156,6 +158,7 @@ function tileChoice() {
         // losing the game
         if (numberOfLives === 0) {
             alert("You lose :(")
+            //document.getElementById("lives").innerText = "You lose :(";
         }
 
         // winning the game
