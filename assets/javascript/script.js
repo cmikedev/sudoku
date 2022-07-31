@@ -151,6 +151,16 @@ function tileChoice() {
         if (numberOfLives === 0) {
             alert("You lose :(")
         }
+
+        // winning the game
+        let tileContents = document.querySelectorAll(".board-tile");
+        let answers = [];
+        for (let i = 0; i < tileContents.length; i++) {
+            answers.push([i]);
+        }
+        if (answers.length === 82) {
+            alert("You Win! :)");
+        }
     }
 }
 
