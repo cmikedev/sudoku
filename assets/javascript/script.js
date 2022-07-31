@@ -43,10 +43,16 @@ function id(id) {
 
 // resetting the game
 id("reset").addEventListener("click", function() {
-    // clearing the tiles
-    let tiles = document.querySelectorAll(".board-tile");
-    for (let i = 0; i < tiles.length; i++) {
-        tiles[i].remove();
+    
+    // clearing the tiles on the board
+    let boardTiles = document.querySelectorAll(".board-tile");
+    for (let i = 0; i < boardTiles.length; i++) {
+        boardTiles[i].remove();
+    }
+    // clearing the tiles in the number selection area
+    let numberTiles = document.querySelectorAll(".number-selection-tile");
+    for (let i = 0; i < numberTiles.length; i++) {
+        numberTiles[i].remove();
     }
 
 });
