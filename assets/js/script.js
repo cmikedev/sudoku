@@ -1,6 +1,3 @@
-let selectedNumber = null;
-let selectedTile = null;
-
 let easyLives = 12;
 let mediumLives = 7;
 let hardLives = 3;
@@ -11,6 +8,9 @@ let numberOfLives;
 // these will be used for the game win
 let numberBlank = 2;
 let numberSelectionCount = 0;
+
+let selectedNumber = null;
+let selectedTile = null;
 
 
 let puzzle = [
@@ -42,7 +42,7 @@ window.onload = function() {
     id("start-button").addEventListener("click", createGame);
 }
 
-// function to abbreviate document.getElementById()
+
 function id(id) {
     return document.getElementById(id);
 }

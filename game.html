@@ -10,19 +10,47 @@
     <title>Sudoku</title>
 </head>
 <header>
+
 </header>
 <body>
     <h1>Sudoku</h1>
     <hr>
     <div>
-        <div id="instructions">
-            <div id="main-text">
-                <h2>Welcome to the Game!</h2>
-                <h3>Read the instructions carefully before you proceed...</h3>
-                <p>We are Wicklow's largest motorcycle touring group open to all licence and bike types.</p>
-                <a class="promoted-page-link" href="game.html">To the Game Page!</a>
-            </div>
+        <div class="difficulty">
+            <p>Select difficulty:</p>
+        </div>
+        <div class="difficulty">
+            <label>
+                <input id="diff-easy" type="radio" name="difficulty" value="easy" checked>Easy</label>
+            </label>
+        </div>
+        <div class="difficulty">
+            <label>
+                <input id="diff-medium" type="radio" name="difficulty" value="medium">Medium</label>
+            </label>
+        </div>
+        <div class="difficulty">
+            <label>
+                <input id="diff-hard" type="radio" name="difficulty" value="hard">Hard</label>
+            </label>
+        </div>
     </div>
+    <hr>
+    <div>
+        <div class="controls">
+            <button id="start-button">Start Game!</button>
+        </div>
+        <div class="controls">
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <br>
+    <div>
+        <h3 id="lives"></h3>
+    </div>
+    <div id="board"></div>
+    <br>
+    <div id="number-selection"></div>
     <!-- footer code taken and revised from 'Love Running' project (see README.md > Credits)-->
     <footer>
         <ul id="social-media">

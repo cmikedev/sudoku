@@ -1,108 +1,228 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Wicklow Motorcycle Tourers
+Wicklow Motorcycle Tourers is the website for a motorcycle touring group based in Wicklow, Ireland. The intention of this [site](https://cmikedev.github.io/wicklow-motorcycle-tourers/) is to provide an overview of the meeting location and ride times for riders who wish to tour Wicklow with other like-minded riders and make use of a roadside bike shed.
 
-Welcome cmikedev,
+The purpose of the site was to ultimately get users to sign up with the group. Given the nature of the group's activities (i.e. being dependant on weather conditions), only the bare minimum details of the weekly meet ups would be posted to the site with the intention that a user would sign up and receive detailed emails on each upcoming weekly meet.
+____
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/am-i-responsive-screenshot.png)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Deployed Website
+[Wicklow Motorcycle Tourers](https://cmikedev.github.io/wicklow-motorcycle-tourers/)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Repository
+https://github.com/cmikedev/wicklow-motorcycle-tourers
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Structure
 
-Another blue button should appear to click: _Open Browser_.
+* The site is divided into four pages sharing common features (as detailed below):
+    * Home
+    * Rides
+    * Bike Shed
+    * Sign Up<br />
+    <br />
+* There is an additional 'Thank You' page which is only accessed once the sign up form is completed and submitted by the user.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Styling
 
-To log into the Heroku toolbelt CLI:
+The colour palette is very subdued with only white, black and shades of grey being utilised. This was to frame the navigation, text and footer in a clear, clean way whilst maximising the sense of flow and engagement provided by the video.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic nature of this font is one that is common to many motorcycle-centered websites, tshirts and other visuals and so might elicit a sense of familiarity to motorcycle riders.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
-------
+* ### Navigation Bar
+    * The navigation bar is featured on all pages where there is click-access. It is not featured on the 'Thank You' page which is only accessed via completion of the sign up form.
 
-## Release History
+    * This allows the user to navigate across the website without having to use their browser's back button. The page name in the navigation bar is underlined when the user hovers over that page and is permanently underlined when a user is on that page allowing them to easily see where they are.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/navbar-screenshot.png)
+    &nbsp;
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* ### Page Videos
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    * Each page contains a video which was chosen to create a sense of motion through the site and elicit a sense of companionship and belonging and a desire in the user to get onto their bikes, thus going to the sign up page.<br />
+    <br />
+    
+    #### Home page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-video-screenshot.png)
+    &nbsp;
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    #### Rides page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-video-screenshot.png)
+    &nbsp;
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    #### Bike Shed page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/bike-shed-page-video.png)
+    &nbsp;
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    #### Sign up page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-video-screenshot.png)
+    &nbsp;
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* ### Main Text
+    * Overlaying each video is a text box providing an introductory welcome to the section as well as a link to the next page facilitating the users journey to the sign up form. The text boxes overlaying the videos are relatively opaqe and off-set so as to be obvious, legible but not interfere with the sense of motion created by the video.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-text-box-screenshot.png)
+    &nbsp;
+    * The 'Sign Up' page differs in that the text box which contains the sign up form is centred rather than off-set and is not opaque. This is because the user will have reached our intended destination and so the sign up form is styled to stand out over the video in order to capture and hold their attention.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-text-box-screenshot.png)
+    &nbsp;
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* ### Information Section
+    * Below the video and main text on the 'Home' and 'Rides' pages is a section providing some more information about the Wicklow Motorcycle Tourers and in the case of the 'Rides' page, ride times and an Embedded Google Map showing the meeting location.<br />
+    <br />
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    #### Home page
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-information-screenshot.png)
+    &nbsp;
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    #### Rides page
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-information-screenshot.png)
+    &nbsp;
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+* ### The Footer
+    * The footer section contains social media links encouraging the user to connect and engage via social media.
+    * The social media links open in a new tab allowing easy navigation for the user.
 
-## FAQ about the uptime script
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/footer-screenshot.png)
+    &nbsp;
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* ### The Sign Up Form
+    * The sign up form is located on the [Sign Up](https://cmikedev.github.io/wicklow-motorcycle-tourers/sign-up.html) page.
+    * It allows the user to get signed up and be kept abreast of all ride information.
+    * The form requires the user to input their first name, last name and their email before submitting.<br />
+    <br />
 
-**How will this affect me?**
+* ### The Thank You Page
+    * The 'Thank You' page is accessed once a user has filled out all required fields in the sign up form and submitted.
+    * The page opens in a new window thereby not disrupting the users access to the main site.
+    * The 'Thank You' page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. 
+    * A central image is added in place of a video to retain the minimalism but also the sense of motion.
+    * The aim of this page is to: 
+        * acknowledge the user providing their details
+        * confirm that they have been received
+        * direct them back to the main site via a link which opens in a new browser
+    
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/thank-you-page-screenshot.png)
+    &nbsp;
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Testing
 
-**So….?**
+### Responsiveness Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* The responsiveness tests were carried out manually using Google Chrome's [Inspect Function](https://developer.chrome.com/docs/devtools/open/). Some of the devices tested included (but not limited to):
+    * Nest Hub Max
+    * iPad Mini
+    * Samsung Galaxy S8+
+    * iPhone SE <br />
+    <br />
 
-**Can I opt out?**
+* Testing on a real device (Samsung Galaxy S8) revealed that the footer social media links no longer lined up at that screen resolution:
+    
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/samsung-galaxy-s8-links-overflow-screenshot.jpg)
+    &nbsp;
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* This was corrected and the footer social media links appear correctly in a row on the Samsung Galaxy S8:
+    
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/samsung-galaxy-s8-links-corrected-screenshot.jpg)
+    &nbsp;
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Validator Testing
 
-**Anything more?**
+* #### W3C
+    * HTML
+        * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
+    * CSS
+        * There were no errors or warnings within the HTML when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br />
+        <br />
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* #### Lighthouse (web.dev)
+    * Lighthouse through [web.dev](https://web.dev/) was used to test the site for: 
+        * Performance
+        * Accessibility
+        * Best Practice
+        * SEO<br />
+        <br />
+    None of the results were below 90%<br />
+    <br />
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    <br />
+    * The full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)<br />
+    <br />
 
----
 
-Happy coding!
+## Deployment
+
+### Deploying the repository via GitHub
+* The website was deployed using GitHub pages via the following steps:
+    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * From the horizontal menu above the repository contents select __Settings__
+    * From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
+    * From the __Source__ selection drop-down, select __Branch__ > __main__
+    * The page will then automatically refresh displaying a ribbon indicating deployment status<br />
+    <br />
+    The deployed website can be found here - https://cmikedev.github.io/wicklow-motorcycle-tourers/<br />
+    <br />
+
+### Forking the repository
+* The GitHub repository can be forked to make a copy of the original. This copy can then be viewed or changed without affecting the original repository via the following steps:
+    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * At the top right of the page select __fork__ from the menu below your profile
+    * A copy of the repository will now be created in your account
+
+### Creating a local clone
+* To create a local clone via GitHub:
+    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * From the horizontal menu above the repository contents select __Code__
+    * __Copy__ the link that that is shown
+    * Within __Gitpod__ change the directory to where you would like the location of the cloned directory to be
+    * Type __git clone__ and paste the link that you copied
+    * Press __Enter__ and the local clone will be created<br />
+    <br />
+
+
+
+## Credits
+
+### Content
+* The favicon in the tile (page tab) was taken from [flaticon](https://www.flaticon.com/)
+* The icons in the footer were taken from [font awesome](https://fontawesome.com/)
+* The fonts were taken from [Google Fonts](https://fonts.google.com/)
+* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the navigation, footer sections and social media links
+
+### Media
+* The background videos and background image were taken from [pexels](https://www.pexels.com/)
+* The map was taken from [Google Maps](https://www.google.com/maps)
+
+### Research and Guidance
+* [Stackoverflow](https://stackoverflow.com/questions/20818881/use-video-as-background-for-div) was referenced for guidance on using a background video within a div container
+
+----
+
+## Acknowledgements
+I would like to thank my course mentor Harry Dhillon for providing guidance on this project as well as Daisy Gunn and Tasha Johnson for providing styling inspiration for the README.

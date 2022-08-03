@@ -6,6 +6,43 @@ hr {
     width: 450px;
 }
 
+/* FOOTER */
+
+footer {
+    height: auto;
+    background-color: #f8f9fb;
+}
+
+/* social-media code taken and revised from 'Love Running' project (see README.md > Credits) */
+
+#social-media {
+    text-align: center;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    margin: 10px;
+    padding: 20px;
+    font-size: 200%;
+    color: #415161;
+}
+
+#social-media a {
+    text-decoration: none;
+}
+
+footer p {
+    text-align: justify;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* Game page */
+
 .difficulty {
     display: inline-block;
 }
@@ -72,4 +109,14 @@ hr {
 
 .user-selected-number {
     background-color: gray;
+}
+
+/* Media Queries for social media links */
+
+@media screen and (max-width: 460px) {
+    #social-media i {
+        margin: 5px;
+        padding: 10px;
+        font-size: 100%;
+    }
 }
