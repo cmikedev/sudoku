@@ -148,7 +148,7 @@ function tileChoice() {
 
         // losing the game
         if (numberOfLives === 0) {
-            id("lives").innerText = "You lost :(";
+            id("lives").innerText = "You lost - All your base are belong to us!";
         }
      }
 }
