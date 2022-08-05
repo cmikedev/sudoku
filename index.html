@@ -14,14 +14,24 @@
 <body>
     <h1>Sudoku</h1>
     <hr>
+    <br>
     <div>
-        <div id="instructions">
+        <div id="text-box">
             <div id="main-text">
                 <h2>Welcome to the Game!</h2>
                 <h3>Read the instructions carefully before you proceed...</h3>
-                <p>We are Wicklow's largest motorcycle touring group open to all licence and bike types.</p>
-                <a class="promoted-page-link" href="game.html">To the Game Page!</a>
+                <ul id="instructions">
+                    <li>Sudoku is played on a 9x9 grid</li>
+                    <li>You can select any number from 1 to 9</li>
+                    <li>Place the number on any row or column so that the row or column contains the numbers 1 through 9</li>
+                    <li>BUT, no number can repeat</li>
+                    <li>Within the 9x9 grid are 9 3x3 grids</li>
+                    <li>They must be populated by numbers 1 through 9 but again they cannot contain the same number more than once</li>
+                    <li>If you have filled the whole grid with numbers and still have lives, you win!</li>
+                </ul>
+                <a id="game-page-link" href="game.html">To the Game Page!</a>
             </div>
+        </div>
     </div>
     <!-- footer code taken and revised from 'Love Running' project (see README.md > Credits)-->
     <footer>
