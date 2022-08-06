@@ -22,7 +22,7 @@ hr {
 
   #text-box::after {
     content: "";
-    background: url("/assets/images/dinosaur.png");
+    background: url("../images/dinosaur.png");
     opacity: 0.3;
     top: 0;
     left: 0;
