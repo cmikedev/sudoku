@@ -10,8 +10,6 @@ let numberBlank = 2;
 let numberSelectionCount = 0;
 
 let selectedNumber = null;
-let selectedTile = null;
-
 
 let puzzle = [
     "43526978-",
@@ -23,7 +21,7 @@ let puzzle = [
     "519326874",
     "248957136",
     "763418259"
-]
+];
 
 let puzzleSolution = [
     "435269781",
@@ -35,14 +33,14 @@ let puzzleSolution = [
     "519326874",
     "248957136",
     "763418259"
-]
+];
 
 
 let start = id("start-button");
 if (start) {
     window.onload = function() {
         start.addEventListener("click", createGame);
-    }
+    };
 }
 
 
@@ -69,7 +67,7 @@ if (reset) {
         id("lives").innerText = "";
     
     });
-};
+}
 
 // see README.md > Credits
 function createGame() {
@@ -128,7 +126,7 @@ function numberChoice() {
 function tileChoice() {
     if (selectedNumber) {
         if (this.innerText != "") {
-            return // prevents overwriting of a previous selection
+            return; // prevents overwriting of a previous selection
         }
 
         // finding the coordinates of the selected number on the board
