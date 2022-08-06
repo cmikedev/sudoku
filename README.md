@@ -1,7 +1,5 @@
 # Sudoku
-Wicklow Motorcycle Tourers is the website for a motorcycle touring group based in Wicklow, Ireland. The intention of this [site](https://cmikedev.github.io/sudoku/) is to provide an overview of the meeting location and ride times for riders who wish to tour Wicklow with other like-minded riders and make use of a roadside bike shed.
-
-The purpose of the site was to ultimately get users to sign up with the group. Given the nature of the group's activities (i.e. being dependant on weather conditions), only the bare minimum details of the weekly meet ups would be posted to the site with the intention that a user would sign up and receive detailed emails on each upcoming weekly meet.
+The Sudoku website is a user-interactive, JavaScript-based Sudoku puzzle game based on the classic 9x9 board. The intention of this [site](https://cmikedev.github.io/sudoku/) is to provide users with a simple, intuitive gameboard based on their expectations of what a Sudoku puzzle is.
 ____
 
 
@@ -190,15 +188,19 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     <br />
     On the first test of the game page all returned results with the exception of Accessibility (96%) came in at 100%<br />
     <br />
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-game-results-1.png?raw=true)<br />
     <br />
-    Again, with the addition of Google Fonts, the Performance score dropped on the second test to 89%.
+    Again, with the addition of Google Fonts, the Performance score dropped on the second test to 89%.<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-game-results-2.png?raw=true)<br />
     <br />
     <br />
     * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)<br />
     <br />
     * The game page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html)<br />
     <br />
+
+## Bugs
 
 
 ## Deployment
