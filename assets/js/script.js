@@ -69,7 +69,7 @@ if (reset) {
     });
 }
 
-// see README.md > Credits
+// parts of the below three functions were taken based on KennyYipCoding's tutorial - see README.md > Credits
 function createGame() {
 
     // populating the number of lives based on difficulty selected
@@ -126,7 +126,7 @@ function numberChoice() {
 function tileChoice() {
     if (selectedNumber) {
         if (this.innerText != "") {
-            return; // prevents overwriting of a previous selection
+            return;
         }
 
         // finding the coordinates of the selected number on the board
@@ -139,7 +139,7 @@ function tileChoice() {
             numberSelectionCount ++;
         } else {
             if (numberOfLives === 0) {
-                numberOfLives += 0; // this stops the lives being deducted after a game has ended
+                numberOfLives += 0; 
             } else {
                 numberOfLives -=1;
                 id("lives").innerText = "Lives Remaining: " + numberOfLives;

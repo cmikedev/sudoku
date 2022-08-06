@@ -189,13 +189,14 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 * The icons in the footer were taken from [font awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
 * Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
+* Solved Sudoku puzzle taken from [Sudoku Sandiway](https://sandiway.arizona.edu/sudoku/examples.html)
 
 ### Media
 * The background image was taken from [Pixabay](https://pixabay.com/vectors/dinosaur-katana-japan-ninja-5178645/)
 
 ### Research and Guidance
-* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) code relating to the board creation and game logic was taken and amended.
-* [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) code taken and amended to fix background image opacity.
+* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) The basic code in this tutorial provided the basis for the design of the project particularly creating and populating the board. 
+* [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for guidance on fixing the opacity of the background image.
 * [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error.
 * [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on the win or lose game logic.
 
