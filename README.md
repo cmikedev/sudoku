@@ -3,9 +3,10 @@ The Sudoku website is a user-interactive, JavaScript-based Sudoku puzzle game ba
 ____
 
 
-![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/am-i-responsive-screenshot.png)
-![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/am-i-responsive-screenshot.png)
-Images created using [Am I Responsive](https://ui.dev/amiresponsive)
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/amiresponsive-front.png?raw=true)
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/amiresponsive-game.png?raw=true)
+Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
+<br />
 
 
 ## Deployed Website
@@ -19,60 +20,21 @@ https://github.com/cmikedev/sudoku
 
 ## Structure
 
-* The site is divided into four pages sharing common features (as detailed below):
-    * Home
-    * Rides
-    * Bike Shed
-    * Sign Up<br />
+* The site is divided into two pages:
+    * index.html
+    * game.html<br />
     <br />
-* There is an additional 'Thank You' page which is only accessed once the sign up form is completed and submitted by the user.
 
 ## Styling
 
-The colour palette is very subdued with only white, black and shades of grey being utilised. This was to frame the navigation, text and footer in a clear, clean way whilst maximising the sense of flow and engagement provided by the video.
+The colour palette is simple and subdued with only white, black and shades of grey being utilised. This was intentional and inspired from viewing online Sudoku games. It was surmised that this clean and simplistic style is what regular players of online Sudoku may have come to expect and would also increase usability and clarity for new players.
 
-Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic nature of this font is one that is common to many motorcycle-centered websites, tshirts and other visuals and so might elicit a sense of familiarity to motorcycle riders.
+To hint at a Japanese theme (as Sudoku is Japanese) a opaque image sits behind the instruction text of the front page and 'Noto Serif' was used from Google Fonts.
 
 ## Features
 
-* ### Navigation Bar
-    * The navigation bar is featured on all pages where there is click-access. It is not featured on the 'Thank You' page which is only accessed via completion of the sign up form.
-
-    * This allows the user to navigate across the website without having to use their browser's back button. The page name in the navigation bar is underlined when the user hovers over that page and is permanently underlined when a user is on that page allowing them to easily see where they are.
-
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/navbar-screenshot.png)
-    &nbsp;
-
-
-* ### Page Videos
-
-    * Each page contains a video which was chosen to create a sense of motion through the site and elicit a sense of companionship and belonging and a desire in the user to get onto their bikes, thus going to the sign up page.<br />
-    <br />
-    
-    #### Home page video
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-video-screenshot.png)
-    &nbsp;
-
-    #### Rides page video
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-video-screenshot.png)
-    &nbsp;
-
-    #### Bike Shed page video
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/bike-shed-page-video.png)
-    &nbsp;
-
-    #### Sign up page video
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-video-screenshot.png)
-    &nbsp;
-
-
 * ### Main Text
-    * Overlaying each video is a text box providing an introductory welcome to the section as well as a link to the next page facilitating the users journey to the sign up form. The text boxes overlaying the videos are relatively opaqe and off-set so as to be obvious, legible but not interfere with the sense of motion created by the video.
+    * The front page provides instructions for users on how to play Sudoku.
 
     &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-text-box-screenshot.png)
@@ -81,20 +43,6 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 
     &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-text-box-screenshot.png)
-    &nbsp;
-
-* ### Information Section
-    * Below the video and main text on the 'Home' and 'Rides' pages is a section providing some more information about the Wicklow Motorcycle Tourers and in the case of the 'Rides' page, ride times and an Embedded Google Map showing the meeting location.<br />
-    <br />
-
-    #### Home page
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-information-screenshot.png)
-    &nbsp;
-
-    #### Rides page
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-information-screenshot.png)
     &nbsp;
 
 
