@@ -1,4 +1,4 @@
-# Wicklow Motorcycle Tourers
+# Sudoku
 Wicklow Motorcycle Tourers is the website for a motorcycle touring group based in Wicklow, Ireland. The intention of this [site](https://cmikedev.github.io/wicklow-motorcycle-tourers/) is to provide an overview of the meeting location and ride times for riders who wish to tour Wicklow with other like-minded riders and make use of a roadside bike shed.
 
 The purpose of the site was to ultimately get users to sign up with the group. Given the nature of the group's activities (i.e. being dependant on weather conditions), only the bare minimum details of the weekly meet ups would be posted to the site with the intention that a user would sign up and receive detailed emails on each upcoming weekly meet.
@@ -213,16 +213,16 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 * The favicon in the tile (page tab) was taken from [flaticon](https://www.flaticon.com/)
 * The icons in the footer were taken from [font awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
-* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the navigation, footer sections and social media links
+* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
 
 ### Media
-* The background videos and background image were taken from [pexels](https://www.pexels.com/)
-* The map was taken from [Google Maps](https://www.google.com/maps)
+* The background image was taken from [pexels](https://www.pexels.com/)
 
 ### Research and Guidance
-* [Stackoverflow](https://stackoverflow.com/questions/20818881/use-video-as-background-for-div) was referenced for guidance on using a background video within a div container
+* [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) code taken and amended to fix background image opacity.
+* [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error.
 
 ----
 
 ## Acknowledgements
-I would like to thank my course mentor Harry Dhillon for providing guidance on this project as well as Daisy Gunn and Tasha Johnson for providing styling inspiration for the README.
+I would like to thank my course mentor Harry Dhillon for providing guidance on this project.

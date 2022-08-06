@@ -17,7 +17,7 @@ hr {
     transform: translate(-50%, -50%);
   }
 
-/* https://css-tricks.com/snippets/css/transparent-background-images/ */
+/* code taken from CSS tricks (see README.md > Credits) */
 
   #text-box::after {
     content: "";
@@ -31,6 +31,8 @@ hr {
     z-index: -1;   
   }
    
+/* instruction text */
+
   #main-text {
     margin: 0 auto;
   }
