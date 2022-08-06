@@ -134,10 +134,21 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ## Bugs
 
 ### Console Errors (fixed)
-* JavaScript is only called upon html items in the game.html page. Due to the addition of a 'windows.onload' call an error appeared in the console relating to the index.html. <br />
+* JavaScript is only called upon html items in the game.html page however a console error was appearing on the index.html page.<br />
+<br />
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/console-error.png?raw=true)<br />
+<br />
+* This error was due to the 'window.onload' call which was being applied to all pages.<br />
+<br />
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/window-onload.png?raw=true)<br />
+<br>
+* The fix was to ensure that the 'window.onload' event only occurred if the id being called actually existed on the html page. In the case of the id 'start-button', this only existed in 'game.html' so setting a conditional of 'True' solved the console error.<br />
+<br />
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/window-onload-fix.png?raw=true)<br />
 <br />
 
-
+### Responsiveness (unfixed)
+* As noted above, the responsiveness suffers on a screen width of less than 500 pixels. Even at larger screens the footer and title are off-set to the right of the main box. This comes down to a fundamental aspect of the design whereby the game board is 450 pixels (9x9 50 pixel squares) but is then positioned using percentages. To fix this issue would require a revision of the creation of the game board itself and is currently unfixed for this release.
 
 
 ## Deployment
