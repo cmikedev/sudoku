@@ -6,21 +6,21 @@ let hardLives = 3;
 let numberOfLives;
 
 // these will be used for the game win
-let numberBlank = 2;
+let numberBlank = 45;
 let numberSelectionCount = 0;
 
 let selectedNumber = null;
 
 let puzzle = [
-    "43526978-",
-    "6-25714--",
-    "1978---62",
-    "8261--3-7",
-    "-7-6-2915",
-    "951-4-628",
-    "519326--4",
-    "----57136",
-    "763-1825-"
+    "4--2--78-",
+    "6-2-7-4--",
+    "---8--562",
+    "8-----347",
+    "-7--8-9-5",
+    "951-----8",
+    "5--3-68--",
+    "2-8--7--6",
+    "---41-2-9"
 ];
 
 let puzzleSolution = [
