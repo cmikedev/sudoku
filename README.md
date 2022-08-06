@@ -176,23 +176,23 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
         <br />
     On the front page, the Accessibility, Best Practices and SEO were all 100%. However, the Performance dipped to 89%<br />
     <br />
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-front-results-1.png?raw=true)<br />
     <br />
     With the addition of Google Fonts, the Performance score dipped further to 77%.<br />
     <br />
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-front-results-2.png?raw=true)<br />
     <br />
     Althought Google Fonts is a factor, the biggest driver of the sub-optimal performance on the front page is the background image.<br />
     <br />
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-opportunity-image.png?raw=true)<br />
     <br /> 
     [web.dev](https://web.dev/) suggests changing the image format from its current format of .PNG to either AVIF or WebP. However, given that .PNG is widely supported across browsers and that the website itself is relatively small and shows no sluggishness in real-world testing, the image has been left in its .PNG format (see Bugs section for further comment).<br />
     <br />
-    On the first test of the game page all returned results came in at 100%<br />
+    On the first test of the game page all returned results with the exception of Accessibility (96%) came in at 100%<br />
     <br />
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
     <br />
-    Again, with the addition of Google Fonts, the Performance score dropped on the second test to 89% and the Accessibility score dipped to 96%.
+    Again, with the addition of Google Fonts, the Performance score dropped on the second test to 89%.
     <br />
     <br />
     * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)<br />
