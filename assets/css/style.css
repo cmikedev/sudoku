@@ -18,6 +18,7 @@ hr {
   }
 
 /* code taken from CSS tricks (see README.md > Credits) */
+/* background image taken from pixabay.com */
 
   #text-box::after {
     content: "";

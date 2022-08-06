@@ -1,5 +1,5 @@
 # Sudoku
-Wicklow Motorcycle Tourers is the website for a motorcycle touring group based in Wicklow, Ireland. The intention of this [site](https://cmikedev.github.io/wicklow-motorcycle-tourers/) is to provide an overview of the meeting location and ride times for riders who wish to tour Wicklow with other like-minded riders and make use of a roadside bike shed.
+Wicklow Motorcycle Tourers is the website for a motorcycle touring group based in Wicklow, Ireland. The intention of this [site](https://cmikedev.github.io/sudoku/) is to provide an overview of the meeting location and ride times for riders who wish to tour Wicklow with other like-minded riders and make use of a roadside bike shed.
 
 The purpose of the site was to ultimately get users to sign up with the group. Given the nature of the group's activities (i.e. being dependant on weather conditions), only the bare minimum details of the weekly meet ups would be posted to the site with the intention that a user would sign up and receive detailed emails on each upcoming weekly meet.
 ____
@@ -9,11 +9,11 @@ ____
 
 
 ## Deployed Website
-[Wicklow Motorcycle Tourers](https://cmikedev.github.io/wicklow-motorcycle-tourers/)
+[Sudoku](https://cmikedev.github.io/sudoku/)
 
 
 ## Repository
-https://github.com/cmikedev/wicklow-motorcycle-tourers
+https://github.com/cmikedev/sudoku
 
 
 
@@ -210,17 +210,19 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 ## Credits
 
 ### Content
-* The favicon in the tile (page tab) was taken from [flaticon](https://www.flaticon.com/)
+* The favicon in the tile (page tab) was taken from [Flaticon](https://www.flaticon.com/)
 * The icons in the footer were taken from [font awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
 * Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
 
 ### Media
-* The background image was taken from [pexels](https://www.pexels.com/)
+* The background image was taken from [Pixabay](https://pixabay.com/vectors/dinosaur-katana-japan-ninja-5178645/)
 
 ### Research and Guidance
+* [KennyYipCoding] (https://www.youtube.com/watch?v=S4uRtTb8U-U) code relating to the board creation and game logic was taken and amended.
 * [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) code taken and amended to fix background image opacity.
 * [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error.
+* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) for guidance on the win or lose game logic.
 
 ----
 
