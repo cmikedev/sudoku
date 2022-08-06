@@ -6,6 +6,8 @@ ____
 
 
 ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/am-i-responsive-screenshot.png)
+![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/am-i-responsive-screenshot.png)
+Images created using [Am I Responsive](https://ui.dev/amiresponsive)
 
 
 ## Deployed Website
@@ -156,13 +158,14 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 
 * #### W3C
     * HTML
-        * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
+        * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)
     * CSS
-        * There were no errors or warnings within the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br />
+        * There were no errors or warnings within the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)<br />
         <br />
 
 * #### JSHint
-    * The JavaScript was tested through [JSHint](https://jshint.com/). There were no errors found.
+    * The JavaScript was tested through [JSHint](https://jshint.com/). There were no errors found.<br />
+    <br />
 
 * #### Lighthouse (web.dev)
     * Lighthouse through [web.dev](https://web.dev/) was used to test the site for: 
@@ -171,11 +174,17 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
         * Best Practice
         * SEO<br />
         <br />
-    None of the results were below 90%<br />
+    On the front page, the Accessibility, Best Practices and SEO were all 100%. However, the Performance dipped to 89%<br />
     <br />
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
     <br />
-    * The full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)<br />
+    The Performance score increased to 100% on the game page<br />
+    <br />
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    <br />
+    * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)<br />
+    <br />
+    * The game page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html)<br />
     <br />
 
 
@@ -183,24 +192,24 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 
 ### Deploying the repository via GitHub
 * The website was deployed using GitHub pages via the following steps:
-    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
     * From the horizontal menu above the repository contents select __Settings__
     * From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
     * From the __Source__ selection drop-down, select __Branch__ > __main__
     * The page will then automatically refresh displaying a ribbon indicating deployment status<br />
     <br />
-    The deployed website can be found here - https://cmikedev.github.io/wicklow-motorcycle-tourers/<br />
+    The deployed website can be found here - https://cmikedev.github.io/sudoku/<br />
     <br />
 
 ### Forking the repository
 * The GitHub repository can be forked to make a copy of the original. This copy can then be viewed or changed without affecting the original repository via the following steps:
-    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
     * At the top right of the page select __fork__ from the menu below your profile
     * A copy of the repository will now be created in your account
 
 ### Creating a local clone
 * To create a local clone via GitHub:
-    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
     * From the horizontal menu above the repository contents select __Code__
     * __Copy__ the link that that is shown
     * Within __Gitpod__ change the directory to where you would like the location of the cloned directory to be
@@ -222,10 +231,10 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 * The background image was taken from [Pixabay](https://pixabay.com/vectors/dinosaur-katana-japan-ninja-5178645/)
 
 ### Research and Guidance
-* [KennyYipCoding] (https://www.youtube.com/watch?v=S4uRtTb8U-U) code relating to the board creation and game logic was taken and amended.
+* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) code relating to the board creation and game logic was taken and amended.
 * [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) code taken and amended to fix background image opacity.
 * [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error.
-* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) for guidance on the win or lose game logic.
+* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on the win or lose game logic.
 
 ----
 
