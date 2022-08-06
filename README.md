@@ -29,7 +29,7 @@ https://github.com/cmikedev/sudoku
 
 The colour palette is simple and subdued with only white, black and shades of grey being utilised. This was intentional and inspired from viewing online Sudoku games. It was surmised that this clean and simplistic style is what regular players of online Sudoku may have come to expect and would also increase usability and clarity for new players.
 
-To hint at a Japanese theme (as Sudoku is Japanese) a opaque image sits behind the instruction text of the front page and 'Noto Serif' was used from Google Fonts.
+To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind the instruction text of the front page and 'Noto Serif' was used from Google Fonts.
 
 ## Features
 
@@ -37,12 +37,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) a opaque image sits behind t
     * The front page provides instructions for users on how to play Sudoku.
 
     &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-text-box-screenshot.png)
-    &nbsp;
-    * The 'Sign Up' page differs in that the text box which contains the sign up form is centred rather than off-set and is not opaque. This is because the user will have reached our intended destination and so the sign up form is styled to stand out over the video in order to capture and hold their attention.
-
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-text-box-screenshot.png)
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)
     &nbsp;
 
 
@@ -55,26 +50,11 @@ To hint at a Japanese theme (as Sudoku is Japanese) a opaque image sits behind t
     &nbsp;
 
 
-* ### The Sign Up Form
+* ### The Game Page
     * The sign up form is located on the [Sign Up](https://cmikedev.github.io/wicklow-motorcycle-tourers/sign-up.html) page.
     * It allows the user to get signed up and be kept abreast of all ride information.
     * The form requires the user to input their first name, last name and their email before submitting.<br />
     <br />
-
-* ### The Thank You Page
-    * The 'Thank You' page is accessed once a user has filled out all required fields in the sign up form and submitted.
-    * The page opens in a new window thereby not disrupting the users access to the main site.
-    * The 'Thank You' page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. 
-    * A central image is added in place of a video to retain the minimalism but also the sense of motion.
-    * The aim of this page is to: 
-        * acknowledge the user providing their details
-        * confirm that they have been received
-        * direct them back to the main site via a link which opens in a new browser
-    
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/thank-you-page-screenshot.png)
-    &nbsp;
-
 
 
 ## Testing
