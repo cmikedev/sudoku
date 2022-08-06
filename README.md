@@ -53,38 +53,35 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     * When users arrive on the game page they are presented with a very simple layout allowing them a choice of 'Easy', 'Medium' or 'Hard' and the 'Start Game!'.
     * The difficulty choice will determing how many lives a user will be given from 12, 7 down to 3.<br />
     <br />
-
-    <br/>
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page.png?raw=true)<br/>
     <br />
 
     * When the user clicks on 'Start Game!' the board will generate.
-    * At any stage the user can click the 'Reset' button and the board will disappear leaving the user free to select a new difficulty level and start again.<br>
+    * At any stage the user can click the 'Reset' button and the board will disappear leaving the user free to select a new difficulty level and start again.<br />
     <br />
-    
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page-board.png?raw=true)<br />
+    <br />
+
+
 
 
 ## Testing
 
 ### Responsiveness Testing
 
-* The responsiveness tests were carried out manually using Google Chrome's [Inspect Function](https://developer.chrome.com/docs/devtools/open/). Some of the devices tested included (but not limited to):
+* The responsiveness tests were carried out manually using Google Chrome's [Inspect Function](https://developer.chrome.com/docs/devtools/open/) with also some real world testing on actual devices. Some of the devices tested included (but not limited to):
     * Nest Hub Max
     * iPad Mini
+    * iPad Air
     * Samsung Galaxy S8+
-    * iPhone SE <br />
+    * iPhone SE
+    * Samsung Galaxy S8 (real-world test on device)
+    * Samsung Galaxy S9 (real-world test on device)
+    * Apple MacBook Air (real-world test on device) <br />
     <br />
 
-* Testing on a real device (Samsung Galaxy S8) revealed that the footer social media links no longer lined up at that screen resolution:
-    
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/samsung-galaxy-s8-links-overflow-screenshot.jpg)
-    &nbsp;
-
-* This was corrected and the footer social media links appear correctly in a row on the Samsung Galaxy S8:
-    
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/samsung-galaxy-s8-links-corrected-screenshot.jpg)
-    &nbsp;
+* Based on this testing and although optimised through code for devices as low as width 450 pixels, the smallest device that could be recommended to a user is a device with a width of at least 500 pixels (see Bugs section for further comments).<br />
+<br />
 
 ### Validator Testing
 
@@ -135,6 +132,12 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     <br />
 
 ## Bugs
+
+### Console Errors (fixed)
+* JavaScript is only called upon html items in the game.html page. Due to the addition of a 'windows.onload' call an error appeared in the console relating to the index.html. <br />
+<br />
+
+
 
 
 ## Deployment
