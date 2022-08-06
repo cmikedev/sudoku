@@ -158,8 +158,11 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     * HTML
         * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
     * CSS
-        * There were no errors or warnings within the HTML when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br />
+        * There were no errors or warnings within the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br />
         <br />
+
+* #### JSHint
+    * The JavaScript was tested through [JSHint](https://jshint.com/). There were no errors found.
 
 * #### Lighthouse (web.dev)
     * Lighthouse through [web.dev](https://web.dev/) was used to test the site for: 
