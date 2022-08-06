@@ -178,9 +178,22 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     <br />
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
     <br />
-    The Performance score increased to 100% on the game page<br />
+    With the addition of Google Fonts, the Performance score dipped further to 77%.<br />
     <br />
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    <br />
+    Althought Google Fonts is a factor, the biggest driver of the sub-optimal performance on the front page is the background image.<br />
+    <br />
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    <br /> 
+    [web.dev](https://web.dev/) suggests changing the image format from its current format of .PNG to either AVIF or WebP. However, given that .PNG is widely supported across browsers and that the website itself is relatively small and shows no sluggishness in real-world testing, the image has been left in its .PNG format (see Bugs section for further comment).<br />
+    <br />
+    On the first test of the game page all returned results came in at 100%<br />
+    <br />
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    <br />
+    Again, with the addition of Google Fonts, the Performance score dropped on the second test to 89% and the Accessibility score dipped to 96%.
+    <br />
     <br />
     * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)<br />
     <br />
