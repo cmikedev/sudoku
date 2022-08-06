@@ -34,27 +34,33 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ## Features
 
 * ### Main Text
-    * The front page provides instructions for users on how to play Sudoku.
-
-    &nbsp;
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)
-    &nbsp;
+    * The front page provides instructions for users on how to play Sudoku as well as a bold, obvious link to the game page.<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)<br />
+    <br />
 
 
 * ### The Footer
     * The footer section contains social media links encouraging the user to connect and engage via social media.
-    * The social media links open in a new tab allowing easy navigation for the user.
-
-    &nbsp;
-    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/footer-screenshot.png)
-    &nbsp;
-
+    * The social media links open in a new tab allowing easy navigation for the user.<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/social-media-footer.png?raw=true)<br />
+    <br />
+    
 
 * ### The Game Page
-    * The sign up form is located on the [Sign Up](https://cmikedev.github.io/wicklow-motorcycle-tourers/sign-up.html) page.
-    * It allows the user to get signed up and be kept abreast of all ride information.
-    * The form requires the user to input their first name, last name and their email before submitting.<br />
+    * Users can access the game page by clicking on the 'To The Game Page!' link on the front page.
+    * When users arrive on the game page they are presented with a very simple layout allowing them a choice of 'Easy', 'Medium' or 'Hard' and the 'Start Game!'.
+    * The difficulty choice will determing how many lives a user will be given from 12, 7 down to 3.<br />
     <br />
+
+    <br/>
+    <br />
+
+    * When the user clicks on 'Start Game!' the board will generate.
+    * At any stage the user can click the 'Reset' button and the board will disappear leaving the user free to select a new difficulty level and start again.<br>
+    <br />
+    
 
 
 ## Testing
