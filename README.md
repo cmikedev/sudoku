@@ -37,8 +37,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     * The front page provides instructions for users on how to play Sudoku as well as a bold, obvious link to the game page.
     <br />
     <br />
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)
-    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)<br />
     <br />
 
 
@@ -46,8 +45,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     * The footer section contains social media links encouraging the user to connect and engage via social media.
     * The social media links open in a new tab allowing easy navigation for the user.<br />
     <br />
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/social-media-footer.png?raw=true)
-    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/social-media-footer.png?raw=true)<br />
     <br />
     
 
@@ -56,8 +54,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     * When users arrive on the game page they are presented with a very simple layout allowing them a choice of 'Easy', 'Medium' or 'Hard' and the 'Start Game!'.
     * The difficulty choice will determing how many lives a user will be given from 12, 7 down to 3.<br />
     <br />
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page.png?raw=true)
-    <br/>
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page.png?raw=true)<br/>
     <br />
 
     * When the user clicks on 'Start Game!' the board will generate.
@@ -141,22 +138,21 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ### Console Errors (fixed)
 * JavaScript is only called upon html items in the game.html page however a console error was appearing on the index.html page.<br />
 <br />
-![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/console-error.png)
-<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/console-error.png)<br />
 <br />
 * This error was due to the 'window.onload' call which was being applied to all pages.<br />
 <br />
-![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload.png)
-<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload.png)<br />
 <br>
 * The fix was to ensure that the 'window.onload' event only occurred if the id being called actually existed on the html page. In the case of the id 'start-button', this only existed in 'game.html' so setting a conditional of 'True' solved the console error.<br />
 <br />
-![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload-fix.png)
-<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload-fix.png)<br />
 <br />
 
 ### Board Replication (unfixed)
 * When the user starts a new game, they are able to select the 'Start Game!' button again and another board will generate below the one previously generated with an overlap. It is possible for a user to continue generating boards. The start game process does not recognise another board having already been generated. This bug is currently unfixed in this release.<br />
+<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/new-game-duplication.png)<br />
 <br />
 
 ### Performance (unfixed)
@@ -221,3 +217,4 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 
 ## Acknowledgements
 I would like to thank my course mentor Harry Dhillon for providing guidance on this project.
+
