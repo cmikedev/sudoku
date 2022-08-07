@@ -132,6 +132,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     <br />
     * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)<br />
     <br />
+    
     * The game page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html)<br />
     <br />
 
