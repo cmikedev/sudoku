@@ -155,6 +155,10 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 <br />
 <br />
 
+### Board Replication (unfixed)
+* When the user starts a new game, they are able to select the 'Start Game!' button again and another board will generate below the one previously generated with an overlap. It is possible for a user to continue generating boards. The start game process does not recognise another board having already been generated. This bug is currently unfixed in this release.<br />
+<br />
+
 ### Performance (unfixed)
 * As in the testing section above, the use of Google Fonts and the background image both had a negative effect on the performance of the website. In real-world testing on other devices the website showed no sign of being adversely effected when being loaded. For that reason fixes or efficiencies have not been applied to both of these elements for this release. They are being recorded as unfixed bugs as the potential for users to experience performance issues should the site be scaled up is noted.<br />
 <br />
