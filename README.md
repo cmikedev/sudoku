@@ -136,15 +136,15 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ### Console Errors (fixed)
 * JavaScript is only called upon html items in the game.html page however a console error was appearing on the index.html page.<br />
 <br />
-![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/console-error.png?raw=true)<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/console-error.png)<br />
 <br />
 * This error was due to the 'window.onload' call which was being applied to all pages.<br />
 <br />
-![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/window-onload.png?raw=true)<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload.png)<br />
 <br>
 * The fix was to ensure that the 'window.onload' event only occurred if the id being called actually existed on the html page. In the case of the id 'start-button', this only existed in 'game.html' so setting a conditional of 'True' solved the console error.<br />
 <br />
-![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/window-onload-fix.png?raw=true)<br />
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload-fix.png)<br />
 <br />
 
 ### Performance (unfixed)
