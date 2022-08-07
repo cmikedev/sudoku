@@ -147,8 +147,13 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/window-onload-fix.png?raw=true)<br />
 <br />
 
+### Performance (unfixed)
+* As in the testing section above, the use of Google Fonts and the background image both had a negative effect on the performance of the website. In real-world testing on other devices the website showed no sign of being adversely effected when being loaded. For that reason fixes or efficiencies have not been applied to both of these elements for this release. They are being recorded as unfixed bugs as the potential for users to experience performance issues should the site be scaled up is noted.<br />
+<br />
+
 ### Responsiveness (unfixed)
-* As noted above, the responsiveness suffers on a screen width of less than 500 pixels. Even at larger screens the footer and title are off-set to the right of the main box. This comes down to a fundamental aspect of the design whereby the game board is 450 pixels (9x9 50 pixel squares) but is then positioned using percentages. To fix this issue would require a revision of the creation of the game board itself and is currently unfixed for this release.
+* As noted above, the responsiveness suffers on a screen width of less than 500 pixels. Even at larger screens the footer and title are off-set to the right of the main box. This comes down to a fundamental aspect of the design whereby the game board is 450 pixels (9x9 50 pixel squares) housing 45 divs created via JavaScript that is then positioned using percentages. To fix this issue would require a revision of the creation of the game board itself and is currently unfixed for this release.<br />
+<br /> 
 
 
 ## Deployment
