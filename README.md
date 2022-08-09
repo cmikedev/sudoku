@@ -212,16 +212,16 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
 * Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
+* Code from [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) was taken to set the opacity of the background image without affecting the rest of the div
 * Solved Sudoku puzzle taken from [Sudoku Sandiway](https://sandiway.arizona.edu/sudoku/examples.html)
+* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) The basic code in this tutorial provided the basis for the design of the project particularly creating and populating the board
 
 ### Media
 * The background image was taken from [Pixabay](https://pixabay.com/vectors/dinosaur-katana-japan-ninja-5178645/)
 
 ### Research and Guidance
-* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) The basic code in this tutorial provided the basis for the design of the project particularly creating and populating the board. 
-* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on board creation logic and user experience.
-* [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for guidance on fixing the opacity of the background image.
-* [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error.
+* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on board creation logic and user experience
+* [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error
 
 ----
 

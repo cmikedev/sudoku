@@ -27,6 +27,7 @@ h3 {
 
 /* background image taken from pixabay.com */
 
+/* the below code was taken from CSS Tricks - see README.md > Credits */
   #text-box::after {
     content: "";
     background: url("../images/dinosaur.png");

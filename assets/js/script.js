@@ -71,7 +71,7 @@ if (reset) {
     });
 }
 
-// parts of the below three functions were taken based on KennyYipCoding's tutorial - see README.md > Credits
+// tha basic elements of the below three functions were based on KennyYipCoding's tutorial - see README.md > Credits
 function createGame() {
 
     // populating the number of lives based on difficulty selected
