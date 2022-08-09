@@ -162,7 +162,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/new-game-duplication.png)<br />
 <br />
 
-This was fixed by removing the even listener from the start game button once the board had been loaded and then adding it back to the start game button when the game is reset.<br />
+* This was fixed by removing the even listener from the start game button once the board had been loaded and then adding it back to the start game button when the game is reset.<br />
 <br />
 
 ### Performance (unfixed)
