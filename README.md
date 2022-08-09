@@ -107,7 +107,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
         * Best Practice
         * SEO<br />
         <br />
-    On the front page, the Accessibility, Best Practices and SEO were all 100%. However, the Performance dipped to 89%<br />
+    On the front page, the Accessibility, Best Practices and SEO were all 100%. However, the Performance came in lower at 89%<br />
     <br />
     ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-front-results-1.png?raw=true)<br />
     <br />
@@ -139,7 +139,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ## Bugs
 
 ### Console Errors (fixed)
-* JavaScript is only called upon html items in the game.html page however a console error was appearing on the index.html page.<br />
+* JavaScript is only called upon html items in the game.html page. However, a console error was appearing on the index.html page.<br />
 <br />
 
 ![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/console-error.png)<br />
@@ -163,7 +163,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 <br />
 
 ### Performance (unfixed)
-* As in the testing section above, the use of Google Fonts and the background image both had a negative effect on the performance of the website. In real-world testing on other devices the website showed no sign of being adversely effected when being loaded. For that reason fixes or efficiencies have not been applied to both of these elements for this release. They are being recorded as unfixed bugs as the potential for users to experience performance issues should the site be scaled up is noted.<br />
+* As in the testing section above, the use of Google Fonts and the background image both had a negative effect on the performance of the website. In real-world testing on other devices the website showed no sign of being adversely effected when being loaded. For that reason fixes or further optimization have not been applied to both of these elements for this release. They are being recorded as unfixed bugs as the potential for users to experience performance issues should the site be scaled up is noted.<br />
 <br />
 
 ### Responsiveness (unfixed)
@@ -206,7 +206,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 
 ### Content
 * The favicon in the tile (page tab) was taken from [Flaticon](https://www.flaticon.com/)
-* The icons in the footer were taken from [font awesome](https://fontawesome.com/)
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
 * Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
 * Solved Sudoku puzzle taken from [Sudoku Sandiway](https://sandiway.arizona.edu/sudoku/examples.html)
@@ -216,9 +216,9 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 
 ### Research and Guidance
 * [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) The basic code in this tutorial provided the basis for the design of the project particularly creating and populating the board. 
+* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on board creation logic and user experience.
 * [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for guidance on fixing the opacity of the background image.
 * [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error.
-* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on the win or lose game logic.
 
 ----
 
