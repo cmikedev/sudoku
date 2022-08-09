@@ -155,11 +155,14 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 ![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload-fix.png)<br />
 <br />
 
-### Board Replication (unfixed)
-* When the user starts a new game, they are able to select the 'Start Game!' button again and another board will generate below the one previously generated with an overlap. It is possible for a user to continue generating boards. The start game process does not recognise another board having already been generated. This bug is currently unfixed in this release.<br />
+### Board Replication (fixed)
+* When the user starts a new game, they are able to select the 'Start Game!' button again and another board will generate below the one previously generated with an overlap. It is possible for a user to continue generating boards. The start game process does not recognise another board having already been generated.<br />
 <br />
 
 ![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/new-game-duplication.png)<br />
+<br />
+
+This was fixed by removing the even listener from the start game button once the board had been loaded and then adding it back to the start game button when the game is reset.<br />
 <br />
 
 ### Performance (unfixed)

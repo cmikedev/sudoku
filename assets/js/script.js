@@ -65,6 +65,8 @@ if (reset) {
         }
         // clearing the lives
         id("lives").innerText = "";
+
+        start.addEventListener("click", createGame);
     
     });
 }
@@ -100,6 +102,8 @@ function createGame() {
             id("board").appendChild(boardTile);
         }
     }
+
+    start.removeEventListener("click", createGame);
 
     // populating the "number-selection" div in the html by creating 9 divs
     for (let i = 1; i <= 9; i++) {
